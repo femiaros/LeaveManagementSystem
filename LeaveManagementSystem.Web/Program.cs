@@ -29,7 +29,7 @@ else
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseStaticFiles(); // To serve static files to client app - html / css / js /img
 
 app.UseRouting();
 
